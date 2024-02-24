@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 public class ProprietarioController {
 
-    @GetMapping("/proprietarios")
+    @GetMapping("/proprietarios3")
     public List<Proprietario> listar() {
         var proprietario1 = new Proprietario();
         proprietario1.setId(1L);
